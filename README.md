@@ -26,29 +26,32 @@ A simple HTTP API, with the following available commands:
 - build
 - test
 
+---
 
----
-runme:
-  id: 01HJ6HRR8N3W4ZDXHWRQAW0CDR
-  version: v2.0
----
+## runme:
+id: 01HJ6HRR8N3W4ZDXHWRQAW0CDR
+version: v2.0
 
 # Basic HTTP Api example
 
 ## Install dependencies
 
-```sh {"name":"install"}
+```sh {"id":"01HJW094MYMBQS4E7525NWWK5K","name":"echo"}
+echo test
+```
+
+```sh {"id":"01HJW05Z7S4PVXVV8JK83CK0C2","name":"install"}
 npm i
 ```
 
 ## Build TypeScript
 
-```sh {"name":"build"}
+```sh {"id":"01HJW05Z7S4PVXVV8JK8E8D3ZV","name":"build"}
 npm run build
 ```
 
 ## Run tests
 
-```sh {"name":"test"}
+```sh {"id":"01HJW05Z7S4PVXVV8JK8W3QFKE","name":"test"}
 npm test
 ```
