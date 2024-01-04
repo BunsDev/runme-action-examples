@@ -18,40 +18,8 @@ Instead of calling commands and scripts directly as part of your CI step, link e
 
 The action is powered by [Runme](https://runme.dev) which is a tool that helps you supercharge your markdown files.
 
-## Node.js example
+## Examples
 
-A simple HTTP API, with the following available commands:
-
-- install
-- build
-- test
-
----
-
-## runme:
-id: 01HJ6HRR8N3W4ZDXHWRQAW0CDR
-version: v2.0
-
-# Basic HTTP Api example
-
-## Install dependencies
-
-```sh {"id":"01HJW094MYMBQS4E7525NWWK5K","name":"echo"}
-echo test
-```
-
-```sh {"id":"01HJW05Z7S4PVXVV8JK83CK0C2","name":"install"}
-npm i
-```
-
-## Build TypeScript
-
-```sh {"id":"01HJW05Z7S4PVXVV8JK8E8D3ZV","name":"build"}
-npm run build
-```
-
-## Run tests
-
-```sh {"id":"01HJW05Z7S4PVXVV8JK8W3QFKE","name":"test"}
-npm test
-```
+| Name | Runbook | GitHub Workflow |
+| --------------- | --------------- | --------------- |
+| Basic Node.js Http Api example   | [README.md](nodejs/README.md)   | [nodejs.yml](.github/workflows/nodejs.yml)    |

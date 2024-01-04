@@ -1,11 +1,11 @@
 import { describe, it } from "node:test";
-import * as assert from 'node:assert'
+import * as assert from "node:assert";
 
-import buildFastify  from './server'
+import buildFastify from "./server";
 
 describe("Http API Test suite", async () => {
   it("Get / route", () => {
-    const fastify =  buildFastify();
+    const fastify = buildFastify();
 
     fastify.inject(
       {
@@ -13,9 +13,9 @@ describe("Http API Test suite", async () => {
         url: "/",
       },
       (err, response) => {
-       assert.strictEqual(err, null)
-       assert.strictEqual(response.statusCode, 200)
-       assert.strictEqual(response.statusMessage, 'OK')
+        assert.strictEqual(err, null);
+        assert.strictEqual(response.statusCode, 200);
+        assert.strictEqual(response.statusMessage, "OK");
       }
     );
   });

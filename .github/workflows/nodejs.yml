@@ -15,6 +15,6 @@ jobs:
     - uses: stateful/runme-action@v2
       with:
         workflows: |
-          install
-          build
-          test
+          nodejs/install
+          nodejs/build
+          nodejs/test

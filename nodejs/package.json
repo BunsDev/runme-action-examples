@@ -24,5 +24,9 @@
   "homepage": "https://github.com/stateful/runme-action-examples#readme",
   "dependencies": {
     "fastify": "^4.25.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
   }
 }
